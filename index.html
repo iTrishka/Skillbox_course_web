@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Web-pie</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+	<div class="popup-container">
+		<div class="popup">
+			<div class="popup-text">Имя</div>
+			<input type = "text" class="name-task" name= "name-task">
+			<div class="popup-text">Телефон</div>
+			<input type = "tel" class="tel-task" name= "tel-task" placeholder="+7" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+			<button class="button-border popup-button" name="button-popup">Отправить </button>
+
+		</div>	
+	</div>
+	<header>
+		<div class="header-container fixed-container">
+			<nav class="icon-menu">
+  				<ul class="menu-header">
+  				  <li><a href="#services">Услуги</a></li>
+  				  <li><a href="#portfolio">Портфолио</a></li>
+    			  <li><a href="#price">Стоимость</a></li>
+ 				</ul>
+			</nav>
+			<div class="tel-header"><a href="tel:+74999955555">+7 (499) 995-55-55</a></div>
+			<div class="icon-phone"></div>
+			<button class="button-border header-button" name="button-header">Заказать&nbsp;звонок</button>
+		</div>
+	</header>
+	<main>
+	<div class="about-container-background">
+		<div class="about-container fixed-container">
+			<div class="teg-position teg1">{ }</div>
+			<div class="teg-position teg2">&lt;div&gt;</div>
+			<div class="teg-position teg3">#</div>
+			<div class="teg-position teg4">&lt;div&gt;</div>
+			<div class="teg-position teg5">&lt;/&gt;</div>
+			<svg viewBox="0 0 425.39 264.65" style="fill: url(#Gradient01)">
+			<defs>
+			 <linearGradient id="Gradient01">
+			 <stop offset="20%" stop-color="#ff8f5a" /> 
+			 <stop offset="90%" stop-color="#ff2f96" /> 
+			 </linearGradient>
+			</defs><g id="Слой_2" data-name="Слой 2"> <g id="Слой_1-2" data-name="Слой 1"><path class="cls-1" d="M193.66,264.13q-91.11,0-182.22,0c-2,0-3.58-.06-4.59-2.15C2.73,253.52,0,244.59.57,235.41A112.87,112.87,0,0,1,5,210.64c5.64-19.38,15.75-37,27.45-53.84,9.07-13,18.44-26,28.56-38.32,20.69-25.3,43.26-49.11,69.48-69.83A233.71,233.71,0,0,1,195,12.41a189.69,189.69,0,0,1,46-10.93A161.12,161.12,0,0,1,287.8,3.11a153.63,153.63,0,0,1,63.26,27.67,192.45,192.45,0,0,1,45.52,48c6.32,9.36,12.14,19,16.53,29.21A143.91,143.91,0,0,1,424,148.76a124.48,124.48,0,0,1-.84,35.34,140.24,140.24,0,0,1-6.85,24.83c-6,15.95-15.1,30.42-26.45,43.68-3,3.47-6.11,6.83-9.41,10a6.36,6.36,0,0,1-4,1.43Q285,264.17,193.66,264.13Z"/></g></g></svg>
+			<img alt="личное фото" src="img/foto1.png">
+
+			<h1 class="name-block">Дмитрий Алексеев</h1>
+			<h3 class="profesion-block">Frontend-разработчик и <span class="wrap"> веб-верстальщик</span></h3>
+			<button class="button-orange" name="button-about">Узнать&nbsp;больше</button>
+		</div>
+	</div>
+
+		<div class="skills-container fixed-container ">
+			 <p id="services"></p>
+			<h2>Что я делаю</h2>
+			<ul class="skills-ul">
+				<li class="skills-li"><span class="nowrap">Вёрстка лендинг–страниц</span><br> и&nbsp;сайтов любой сложности</li>
+				<li class="skills-li"><span class="nowrap">Адаптивная вёрстка под все</span> браузеры и&nbsp;устройства</li>
+				<li class="skills-li">Frontend–разработка и&nbsp;программирование</li>
+				<li class="skills-li">Исправление и &nbsp;доработка существующей вёрстки</li>
+			</ul>
+		<button class="button-orange" name="button-about">Узнать&nbsp;стоимость</button>
+	</div>
+
+	<div class="examples-container fixed-container">
+		<p id="portfolio"></p>
+		<h2>Примеры моих работ</h2>
+		<div class="flex-container">
+			<div class="arrow-container">
+			<img alt="стрелка(влево)" class="arrow-left" src="img/arrow.png">
+			<img alt="стрелка(вправо)" class="arrow-right" src="img/arrow.png">
+			</div>
+		</div>
+		<button class="button-orange" name="button-about">Заказать проект</button>	
+	</div>	
+	<div class="gradient-container-background">
+		<p id="price"></p>
+			<div class="teg-white-position teg1-white">{ }</div>
+			<div class="teg-white-position teg2-white">&lt;div&gt;</div>
+			<div class="teg-white-position teg3-white">#</div>
+			<div class="teg-white-position teg4-white">&lt;/&gt;</div>
+			<div class="teg-white-position teg5-white">#</div>
+		<div class="gradient-container fixed-container">
+			<span class="first-text">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</span>
+			<span class="extra-text" >* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в&nbsp;зависимости от сложности задач.</span>
+		</div>
+	</div>	
+	</main>
+	<footer>
+		<div class="footer-container fixed-container">
+
+			<ul class="menu-footer">
+  				<li><a href="#">Услуги</a></li>
+  				<li><a href="#">Портфолио</a></li>
+    			<li><a href="#">Стоимость</a></li>
+ 			</ul>
+
+			<ul class="icons-contacts">
+			<li class="tel"><a href="tel:+74999955555">+7 (499) 995-55-55</a></li>
+			<li class="email"><a href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a></li>
+			</ul>
+
+			<div class="right-column-footer">
+			<button class="button-border button-footer-border" name="button-header">Заказать звонок</button>	
+			<button class="button-orange button-footer" name="button-header">Заказать звонок</button>	
+			<ul class="icons-smm">
+			<li><a href="https://vk.com/krisik8" target="_blank"></a></li>
+			<li><a href="#" target="_blank"></a></li>
+			<li><a href="#" target="_blank"></a></li>
+			<li><a href="#" target="_blank"></a></li>
+			</ul>
+			</div>
+		</div>
+		<div class="footer-copy"> &#169; Дмитрий Алексеев, 2016 – 2018</div>
+	</footer>
+	
+</body>
+</html>
